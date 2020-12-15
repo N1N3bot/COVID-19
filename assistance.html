@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  <!-- description about the page that isn't visible  -->
+    <meta name="description" content="Covid-19 helpful services">
+	  <meta name="keywords" content="help, assistance, covid-19">
+  	<meta name="author" content="Ivan Hernandez and Calvin Ku">
+    <title>COVID-19 Web Page | Assistance</title>
+    <link rel="stylesheet" href="./css/style.css"> <!-- loads style cheet -->
+
+  <script src="./js/script1.js"></script>  <!-- loads java script for the user message area -->
+  </head>
+  <body>
+    <header>
+      <div class="container">  <!-- csun branding to follow csun style -->
+        <div id="branding">
+           <h1><span class="highlight">CSUN</span>| California State University Northridge</h1>
+        </div>
+        <nav>  <!-- navigation bar -->
+          <ul>
+	    
+            <li><a href="index.html">Home</a></li>
+	    <li><a href="symptoms.html">Symptoms</a></li>
+	    <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="current"><a href="assistance.html">Assistance</a></li>  <!-- current page -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Services</h1>  <!-- list of the free services that are helpful during the pandemic -->
+          <ul id="services">
+            <li>
+              <h3>Get Tested</h3>  <!-- helps make sure you are not infected -->
+              <p>The link below will lead you to the Health & Human Services website, it provides a tool that will help you locate the nearest testing facility. While also providing a list of stores where you can procure your own COVID-19, if a testing site is not possible to reach. </p>
+						  <a href="https://www.hhs.gov/coronavirus/community-based-testing-sites/index.html">CLICK HERE</a>
+
+            </li>
+            <li>
+              <h3>College grants</h3>  <!-- helps you if you are financialy struggling in college in these times -->
+              <p>There are multiple ways to get financial aid, whether you are or aren't a citizen, the best way is though talking with your college financial aid department. For example, CSUN cares about all of its students so it is providing a program called "CSUN COVID-19 Grant" program that provids funds for students who weren't eligible for the CARES Act Grant.</p>
+						
+            </li>
+            <li>
+              <h3>Meals For Kids</h3>   <!-- help you find meals for children, since schools are closed and families are struggling financially -->
+              <p>The link below leads to a site that will show you were you can obtains meals for your children at no cost. This tool was created by the USDA Food and Nutrition Services to help children and parents with financial struggles, this shows when and where the food will be given out.</p>
+						  <a href="https://usda-fns.maps.arcgis.com/apps/webappviewer/index.html?id=789a7a56a07f4e3dab873fd8c2918f9a">CLICK HERE</a>
+	    </li>
+	    <li>
+	      <h3>Staying up to Date</h3>  <!-- helps you stay informed with tracker info about infection rate of the people in the world -->
+	      <p>The link below will lead you to the latest updates and statistics of the Coronavirus cases on the global scale. This is created and updated by John Hopkins. </p>
+		      				  <a href="https://coronavirus.jhu.edu/map.html">CLICK HERE</a>
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Send us a message</h3>   <!-- area lets you send a message to us about any questions that need a response -->
+            		<form id="theForm" class="quote">
+                          <div><label for="name">Name</label><input type="text" name="name" id="name" placeholder="Name" required></div>
+  				
+                          <div><label for="email">Email</label><input type="text" name="email" id="email" placeholder="Email" required></div>
+                          
+                          <div><label for="message">Message</label><textarea name="message" placeholder="Message" id="message" required></textarea></div>
+                         <div><input type="submit" value="Submit" id="submit"></div>
+                      <p id="confirm"></p> 
+					</form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>  <!-- footer that says when, what college, and what course it was made for -->
+      <p>CSUN COMP484, 2020</p>
+    </footer>
+  </body>
+</html>
